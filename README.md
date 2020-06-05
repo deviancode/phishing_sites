@@ -1,26 +1,27 @@
 # Phishing_sites
 
-The format of the xml file is the following:
+The format of the json file is the following:
 Example:
 ```
-<?xml version="1.0" encoding="UTF-8"?>  
-<report>  
-  <threat>   
-    <category>phishing</category>  <!-- phishing/scam/bec/.. -->  
-    <scheme>https</scheme>  <!-- http/https/ftp/.. -->  
-    <host>qwerty.foo.bar</host> <!-- The host -->    
-    <path>/foobar</path> <!-- The path itself -->  
-    <query>?email</query> <!-- If ? query was use -->  
-    <query_format>base64 encoded email</query_format>  <!-- which query format email/base64 encoded email/.. -->  
-    <fragment></fragment> <!-- If # fragment was used -->  
-    <compromised>yes</compromised>  <!-- dedicated service or open-up server -->  
-    <detected_year>2001</detected_year> <!-- Year detected -->  
-    <detected_month>01</detected_month> <!-- Month detected -->  
-    <detected_day>01</detected_day> <!-- Day detected -->     
-    <reported>yes</reported>  <!-- yes/no netcraft and phishtank -->  
-    <closed>yes</closed> <!-- For follow up, when removed or not reachable anymore -->  
-    <trarget>foobar</target> <!-- Targeted customers, like Microsoft or general -->  
-    <language>english</language> <!-- which audience is targeted based on language -->  
-  </threat>  
-</report>  
+{"threat":[
+  { "category":"", "scheme":"", "host":"", "path":"", "query":"", "query_format":"", "fragment":"", "compromised":"", "detected_year":"", "detected_month":"", "detected_day":"", "reported":"", "closed":"","target":"", "language":"" },
+{ "category":"", "scheme":"", "host":"", "path":"", "query":"", "query_format":"", "fragment":"", "compromised":"", "detected_year":"", "detected_month":"", "detected_day":"", "reported":"", "closed":"","target":"", "language":"" }
+]}
 ```
+   
+category -> phishing/scam/bec/..  
+scheme -> http/https/..  
+host -> The host = fo.ob.ar  
+path -> The path = /foo/bar/  
+query -> if ? query was use = ?email  
+query_format -> which query format email/base64 encoded email/..  
+fragment -> If # fragment was used  
+compromised -> simple yes or no = dedicated service or open-up server  
+detected_year -> Year detected  
+detected_month -> Month detected    
+detected_day -> Day detected  
+reported -> yes/no netcraft / phishtank / microsoft   
+closed -> For follow up, when removed or not reachable anymore  
+target -> Targeted customers, like Microsoft or general
+language -> which audience is targeted based on language  
+
