@@ -14,9 +14,9 @@
     <detected_day>04</detected_day>
     <reported>yes</reported>
     <closed></closed>
-    <trarget>Rediffmail Enterprise</target>
+    <trarget>General</target>
     <language>English</language>
-</threat>
+  </threat>
   <threat> yamunapackages.com/wp-admin/NEW_1/Rediffmail-Pro/Rediffmail Enterprise.php 
     <category>phishing</category>
     <scheme>https</scheme>
