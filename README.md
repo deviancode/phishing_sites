@@ -1,9 +1,12 @@
 # Phishing_sites
 
+The format of the xml file is the following:
+
+```
 <?xml version="1.0" encoding="UTF-8"?>  
 <report>  
   <threat>   
-    <category>phishing</category>  <!-- phishing/scam/bec/.. -->  
+    <category></category>  <!-- phishing/scam/bec/.. -->  
     <scheme></scheme>  <!-- http/https/ftp/.. -->  
     <host></host> <!-- The host -->    
     <path></path> <!-- The path itself -->  
@@ -20,3 +23,4 @@
     <language></language> <!-- which audience is targeted based on language -->  
   </threat>  
 </report>  
+```
