@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+  <threat>
+    <category>phishing</category>
+    <scheme>https</scheme>
+    <host>maram.byethost15.com</host>
+    <path>/notification.php </path>
+    <query>email=</query>
+    <query_format>email</query_format>
+    <fragment></fragment>
+    <compromised>yes</compromised>
+    <detected_year>2020</detected_year>
+    <detected_month>06</detected_month>
+    <detected_day>04</detected_day>
+    <reported>yes</reported>
+    <closed></closed>
+    <trarget>Rediffmail Enterprise</target>
+    <language>English</language>
+</threat>
+  <threat> yamunapackages.com/wp-admin/NEW_1/Rediffmail-Pro/Rediffmail Enterprise.php 
+    <category>phishing</category>
+    <scheme>https</scheme>
+    <host>yamunapackages.com</host>
+    <path>/wp-admin/NEW_1/Rediffmail-Pro/Rediffmail%20Enterprise.php</path>
+    <query>email=</query>
+    <query_format>email</query_format>
+    <fragment></fragment>
+    <compromised>yes</compromised>
+    <detected_year>2020</detected_year>
+    <detected_month>06</detected_month>
+    <detected_day>04</detected_day>
+    <reported>yes</reported>
+    <closed></closed>
+    <trarget>Rediffmail Enterprise</target>
+    <language>English</language>
+  </threat>
+  <threat> 
+    <category>phishing</category>
+    <scheme>https</scheme>
+    <host>hyundaibinhduongoto.com</host>
+    <path>/wp-content/plugins/english/index.php</path>
+    <query>email=</query>
+    <query_format>email</query_format>
+    <fragment></fragment>
+    <compromised>yes</compromised>
+    <detected_year>2020</detected_year>
+    <detected_month>06</detected_month>
+    <detected_day>05</detected_day>
+    <reported>yes</reported>
+    <closed></closed>
+    <trarget>General</target>
+    <language>English</language>
+  </threat>
+</report>
