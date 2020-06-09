@@ -1,4 +1,5 @@
 {"threat":[
+   { "category":"phishing", "scheme":"https", "host":"brave-crayon.cloudvent.net", "path":"", "query":"", "query_format":"", "fragment":"", "compromised":"no", "detected_year":"2020", "detected_month":"06", "detected_day":"09", "reported":"yes", "closed":"","target":"Microsoft", "language":"English" },
   { "category":"phishing", "scheme":"https", "host":"hyundaibinhduongoto.com", "path":"/wp-content/plugins/english/index.php", "query":"?email=", "query_format":"email", "fragment":"", "compromised":"yes", "detected_year":"2020", "detected_month":"06", "detected_day":"05", "reported":"yes", "closed":"","target":"General", "language":"English" },
   { "category":"phishing", "scheme":"https", "host":"yamunapackages.com", "path":"/wp-admin/NEW_1/Rediffmail-Pro/Rediffmail%20Enterprise.php", "query":"?email=", "query_format":"email", "fragment":"", "compromised":"yes", "detected_year":"2020", "detected_month":"06", "detected_day":"04", "reported":"yes", "closed":"yes","target":"Rediffmail Enterprise", "language":"English" }
 ]}
